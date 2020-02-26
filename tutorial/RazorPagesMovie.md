@@ -50,6 +50,12 @@
 Дополнительныe сведения:  
 📘 [Конфигурация в .NET Core](https://docs.microsoft.com/ru-ru/aspnet/core/fundamentals/configuration/index?view=aspnetcore-3.1)  
 
-## Обновление страниц
+## [Обновление страниц](https://docs.microsoft.com/ru-ru/aspnet/core/tutorials/razor-pages/da1?view=aspnetcore-3.1)
+
+Дополнительныe сведения:  
+📘 [Типы данных столбцов](https://docs.microsoft.com/ru-ru/ef/core/modeling/entity-properties?tabs=data-annotations%2Cwithout-nrt#column-data-types) 
+
+* Добавление поиска
+
 ⚗ Готовится:  
 📘 []()  
