@@ -45,7 +45,11 @@
 📘 [Основные сведения о вспомогательных возможностях HTML](https://docs.microsoft.com/ru-ru/aspnet/mvc/overview/older-versions-1/views/creating-custom-html-helpers-cs#understanding-html-helpers)  
 📘 [Вспомогательные функции тегов в ASP.NET Core](https://docs.microsoft.com/ru-ru/aspnet/core/mvc/views/tag-helpers/intro?view=aspnetcore-3.1)  
 
-## Работа с базой данных
+## [Работа с базой данных](https://docs.microsoft.com/ru-ru/aspnet/core/tutorials/razor-pages/sql?view=aspnetcore-3.1&tabs=visual-studio)  
 
+Дополнительныe сведения:  
+📘 [Конфигурация в .NET Core](https://docs.microsoft.com/ru-ru/aspnet/core/fundamentals/configuration/index?view=aspnetcore-3.1)  
+
+## Обновление страниц
 ⚗ Готовится:  
 📘 []()  
