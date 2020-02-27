@@ -55,7 +55,20 @@
 Дополнительныe сведения:  
 📘 [Типы данных столбцов](https://docs.microsoft.com/ru-ru/ef/core/modeling/entity-properties?tabs=data-annotations%2Cwithout-nrt#column-data-types) 
 
-* Добавление поиска
+* [Добавление поиска](https://docs.microsoft.com/ru-ru/aspnet/core/tutorials/razor-pages/search?view=aspnetcore-3.1)  
+Стандартный фнкционал фильтации через параметры GET запроса (чтобы можно было отправить ссылку с результатами поиска)
 
-⚗ Готовится:  
-📘 []()  
+📘 [Лямбда-выражения](https://docs.microsoft.com/ru-ru/dotnet/csharp/programming-guide/statements-expressions-operators/lambda-expressions)  
+📘 [LINQ](https://docs.microsoft.com/ru-ru/aspnet/core/tutorials/razor-pages/search?view=aspnetcore-3.1)  
+📘 [LINQ to Entities](https://docs.microsoft.com/ru-ru/dotnet/framework/data/adonet/ef/language-reference/linq-to-entities)  
+
+* [Добавление нового поля](https://docs.microsoft.com/ru-ru/aspnet/core/tutorials/razor-pages/new-field?view=aspnetcore-3.1&tabs=visual-studio)  
+Добавляется новое поле в модель, и с помощью миграции изменения переносятся в БД.
+
+* [Добавление проверки](https://docs.microsoft.com/ru-ru/aspnet/core/tutorials/razor-pages/validation?view=aspnetcore-3.1&tabs=visual-studio)  
+Проверка осуществляется путем анотации данных в классах Модели.  
+
+📘 [Проверка модели](https://docs.microsoft.com/ru-ru/aspnet/core/tutorials/razor-pages/validation?view=aspnetcore-3.1&tabs=visual-studio)  
+
+Дополнительно:  
+📘 [Руководство по Создание приложения ASP.NET Core и Базы данных SQL в Службе приложений Azure](https://docs.microsoft.com/ru-ru/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb)  
