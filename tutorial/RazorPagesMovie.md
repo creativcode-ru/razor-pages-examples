@@ -72,3 +72,12 @@
 
 Дополнительно:  
 📘 [Руководство по Создание приложения ASP.NET Core и Базы данных SQL в Службе приложений Azure](https://docs.microsoft.com/ru-ru/azure/app-service/app-service-web-tutorial-dotnetcore-sqldb)  
+
+
+<br /><br />
+<p align="center">
+  Практические консультации вы можете получить на наших <a  href="http://creativcode.ru/learn" target="_blank" >веб курсах в Сочи, Адлер</a>:<br /><br />
+   <a  href="http://creativcode.ru/learn/webnet" target="_blank" title="Курс веб программирования .Net C#" >
+  <img src="http://creativcode.ru/img/learn/net-learn.jpg" width="400" alt="">
+   </a>
+</p>
