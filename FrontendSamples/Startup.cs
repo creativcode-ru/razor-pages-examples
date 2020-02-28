@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -36,6 +37,13 @@ namespace FrontendSamples
             {
                 app.UseExceptionHandler("/Error");
             }
+
+
+            var rewriteOptions = new RewriteOptions()
+                .AddRedirect("(.*)/$", "$1")    //убираем слеж в конце адреса
+                .AddRedirect("((?i)(index))$", "/");  //убираем дубликат стартовой страницы; (?i) это ignorecase
+            app.UseRewriter(rewriteOptions); //https://docs.microsoft.com/ru-ru/aspnet/core/fundamentals/url-rewriting?view=aspnetcore-3.1
+
 
             app.UseStaticFiles();
 
