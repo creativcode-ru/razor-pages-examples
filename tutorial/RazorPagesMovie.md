@@ -35,7 +35,9 @@
 📘 [Пространство имен DataAnnotations](https://docs.microsoft.com/ru-ru/dotnet/api/system.componentmodel.dataannotations?view=netframework-4.8)  
 📘 [DbContext Class](https://docs.microsoft.com/ru-ru/dotnet/api/microsoft.entityframeworkcore.dbcontext?view=efcore-3.1)  
 📘 [DbSet<TEntity> Class](https://docs.microsoft.com/ru-ru/dotnet/api/microsoft.entityframeworkcore.dbset-1?view=efcore-3.1)  
-📘 [DbContextOptions Class](https://docs.microsoft.com/ru-ru/dotnet/api/microsoft.entityframeworkcore.dbcontextoptions?view=efcore-3.1) 
+📘 [DbContextOptions Class](https://docs.microsoft.com/ru-ru/dotnet/api/microsoft.entityframeworkcore.dbcontextoptions?view=efcore-3.1)  
+   📘 [Управление схемами баз данных: Миграции](https://docs.microsoft.com/ru-ru/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli)  
+  📘  [Справочник по консоли диспетчера пакетов (PCM)](https://docs.microsoft.com/ru-ru/ef/core/miscellaneous/cli/powershell)
 
 ## [Формирование шаблонов](https://docs.microsoft.com/ru-ru/aspnet/core/tutorials/razor-pages/page?view=aspnetcore-3.1&tabs=visual-studio)
 Используя внедрение зависимостей, конструктор добавляет на страницу RazorPagesMovieContext. 
