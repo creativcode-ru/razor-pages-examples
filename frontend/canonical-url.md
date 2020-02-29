@@ -96,7 +96,6 @@ var rewriteOptions = new RewriteOptions()
     string path = Context.Request.Path.HasValue ? Context.Request.Path.Value.ToLower().TrimEnd('/') : string.Empty;
     if (path.EndsWith("/index")) path = path.Remove(path.Length - 6); //избыточно: перестраховка для редиректа
  }
- }
 ```
 Этот код не учитывает параметры запроса, в большинстве случаев как раз это и требуется, хотя есть и свойство `HttpRequest.QueryString` для отображения строки запроса.  
 📘 [Доступ к HttpContext в ASP.NET Core](https://docs.microsoft.com/ru-ru/aspnet/core/fundamentals/http-context?view=aspnetcore-3.1)  
