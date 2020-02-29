@@ -41,7 +41,7 @@ namespace FrontendSamples
             //Canonical url - Канонический адрес страницы https://github.com/creativcode-ru/razor-pages-examples/blob/master/frontend/canonical-url.md
             var rewriteOptions = new RewriteOptions()
                 .AddRedirect("(.*)(/index/*)$", "$1", 301)  //убираем везде дубликат страницы по умолчанию;
-                .AddRedirect("(.*)/$", "$1", 301);    //убираем слеж в конце адреса для других страниц
+                .AddRedirect("(.*)/$", "$1", 301);    //убираем слеж в конце адреса для других страниц 
                
             app.UseRewriter(rewriteOptions); //https://docs.microsoft.com/ru-ru/aspnet/core/fundamentals/url-rewriting?view=aspnetcore-3.1
 
