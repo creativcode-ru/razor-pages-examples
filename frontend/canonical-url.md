@@ -94,6 +94,8 @@ var rewriteOptions = new RewriteOptions()
 @{
     //Каноническая ссылка
     string path = Context.Request.Path.HasValue ? Context.Request.Path.Value.ToLower().TrimEnd('/') : string.Empty;
+    if (path.EndsWith("/index")) path = path.Remove(path.Length - 6); //избыточно: перестраховка для редиректа
+ }
  }
 ```
 Этот код не учитывает параметры запроса, в большинстве случаев как раз это и требуется, хотя есть и свойство `HttpRequest.QueryString` для отображения строки запроса.  
