@@ -1,7 +1,8 @@
 [← Примеры Razor Pages](/README.md)  
 
 # Информационные материалы по дизайну 
-Системы дизайна:  
+**Системы дизайна:**
+
 📘 Google: [Material Design System](https://material.io/design/#swipe-to-refresh-swipe-to-refresh)  
 📘 Microsoft: [Fluent Design System](https://www.microsoft.com/design/fluent/#/)  
 📘 Apple: [Human Interface](https://developer.apple.com/design/)  
@@ -14,8 +15,14 @@
  ◻ [Microsoft Color palettes](https://developer.microsoft.com/en-us/fabric#/styles/web/colors/theme-slots)  
  ◻ На основе ваших любимых цветов комбинируются различные палитры [khroma.co](http://khroma.co/)  
 
-## Картинки, иконки
+## Детали интерфейса  
+ * **Иконки**  
+ ◻ Иконки Google, Андроид [Icons Material Design](https://material.io/resources/icons/?style=baseline)  
  
+ * **Символы**  
+ ⚗ готовится:)
+ 
+ * **Картинки**  
  ◻ Удаление фона картинки [remove.bg](https://www.remove.bg/). Бесплатно для небольших изображений.  
  ◻ Увеличение качества изображения, из маленького можно увеличить без потери качества [letsenhance.io](https://letsenhance.io/)  
 
