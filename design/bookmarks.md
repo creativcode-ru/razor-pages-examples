@@ -1,8 +1,11 @@
 [← Примеры Razor Pages](/README.md)  
 
 # Информационные материалы по дизайну 
-📘 [Material Design System](https://material.io/design/#swipe-to-refresh-swipe-to-refresh)  
-📘 [Fluent Design System](https://www.microsoft.com/design/fluent/#/)  
+📘 Google: [Material Design System](https://material.io/design/#swipe-to-refresh-swipe-to-refresh)  
+📘 Microsoft: [Fluent Design System](https://www.microsoft.com/design/fluent/#/)  
+📘 Apple: [Human Interface](https://developer.apple.com/design/)  
+📘 [IBM Design Language](https://www.ibm.com/design/language/)  
+📘 [Polaris Shopify](https://polaris.shopify.com/)  
 
 ## Цветовые палитры:  
  ◻ Цветовая палитра Google [2014 Material Design color palettes](https://material.io/design/color/the-color-system.html#tools-for-picking-colors)  
