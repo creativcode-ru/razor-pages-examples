@@ -17,4 +17,4 @@
         }
 ```
 🟢 [Возвращение результата в Razor Pages](https://metanit.com/sharp/aspnet5/29.7.php)  
-◻ [Результаты действий в Razor Pages](https://www.learnrazorpages.com/razor-pages/action-results)  
+ ◻ [Результаты действий в Razor Pages](https://www.learnrazorpages.com/razor-pages/action-results)  
