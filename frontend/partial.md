@@ -6,4 +6,4 @@
 
 📘 [Вспомогательная функция тега частичного представления в ASP.NET Core](https://docs.microsoft.com/ru-ru/aspnet/core/mvc/views/tag-helpers/built-in/partial-tag-helper?view=aspnetcore-3.1)  
 
-⚗ готовится:)
+⚙...
