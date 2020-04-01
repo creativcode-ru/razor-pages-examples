@@ -1,7 +1,10 @@
 [← Примеры Razor Pages](/README.md)  
 
 # Маршрутизация
-📘 [Соглашения для маршрутов и приложений Razor Pages в ASP.NET Core](https://docs.microsoft.com/ru-ru/aspnet/core/razor-pages/razor-pages-conventions?view=aspnetcore-3.1)
+◻ [Razor Pages Routing (learnrazorpages.com)](https://www.learnrazorpages.com/razor-pages/routing)  
+◻ [Routing in Razor Pages (mikesdotnetting.com)](https://www.mikesdotnetting.com/article/310/routing-in-razor-pages)   
+◻ [Необязательные параметры в маршрутизации (mikesdotnetting.com)](https://www.mikesdotnetting.com/article/339/optional-parameters-in-razor-pages-routing)  
+◻ [How to Use Routing in ASP.NET Core 3.0 Razor Pages (exceptionnotfound.net)](https://exceptionnotfound.net/how-to-use-routing-in-asp-net-core-3-0-razor-pages/)  
 
 # Перенаправление
 В зависмости от параметров, вернуть страницу, или сделать, например редирект:
