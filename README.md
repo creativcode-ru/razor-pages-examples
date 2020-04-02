@@ -19,5 +19,7 @@
 
 ## [Частичное представление  →](frontend/partial.md)   
 
+## [Кеширование  →](frontend/caching.md)  
+
 ## [Маршрутизация и перенаправление →](frontend/routing.md)   
 ⚗ готовится:)
