@@ -22,4 +22,6 @@
 ## [Кеширование  →](frontend/caching.md)  
 
 ## [Маршрутизация и перенаправление →](frontend/routing.md)   
+
+## [Обработка ошибок →](frontend/errors.md)   
 ⚗ готовится:)
