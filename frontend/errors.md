@@ -21,3 +21,7 @@ public void OnGet()
     throw new Exception("Тестирвание страницы ошибки");
 }
 ```
+
+◻ [Глобальная обработка ошибок (learnrazorpages.com)](https://www.learnrazorpages.com/configuration/global-error-handling)  
+📘 [Обработка ошибок в ASP.NET Core](https://docs.microsoft.com/ru-ru/aspnet/core/fundamentals/error-handling?view=aspnetcore-3.1)  
+◻ [Настройка пользовательской страницы ошибок на веб-сайте (learnrazorpages.com)](https://www.learnrazorpages.com/configuration/custom-errors)  
