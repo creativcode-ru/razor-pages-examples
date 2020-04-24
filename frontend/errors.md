@@ -39,7 +39,7 @@ app.UseStatusCodePagesWithReExecute("/errors/{0}");
         return NotFound();
 }
 ```
-*HTML Код* простейщей страницы _404.cshtml_:
+**HTML Код** простейшей страницы 404.cshtml:
 ```
 @page
 @model _имя_вашего_проекта.Pages.Errors._404Model
@@ -50,7 +50,7 @@ app.UseStatusCodePagesWithReExecute("/errors/{0}");
     <p class="h3">@Model.OriginalURL</p>
 </div>
 ```
-*С# код:*
+**С# код:**
 ```
    public class _404Model : PageModel
     {
