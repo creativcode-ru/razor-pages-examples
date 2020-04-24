@@ -57,13 +57,13 @@ app.UseStatusCodePagesWithReExecute("/errors/{0}");
         public string OriginalURL { get; set; }
         public void OnGet()
         {
-            var statusCodeReExecuteFeature = HttpContext.Features.Get<IStatusCodeReExecuteFeature>();
-            if (statusCodeReExecuteFeature != null)
+            var statusCode = HttpContext.Features.Get<IStatusCodeReExecuteFeature>();
+            if (statusCode != null)
             {
                 OriginalURL =
-                    statusCodeReExecuteFeature.OriginalPathBase
-                    + statusCodeReExecuteFeature.OriginalPath
-                    + statusCodeReExecuteFeature.OriginalQueryString;
+                    statusCode.OriginalPathBase
+                    + statusCode.OriginalPath
+                    + statusCode.OriginalQueryString;
             }
         }
     }
