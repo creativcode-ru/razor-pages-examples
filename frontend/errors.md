@@ -27,7 +27,7 @@ public void OnGet()
 
 # Страница 404  
 Можно сделать собственную страницу 404, для отображения информации о страницах, которых нет на сайте.  
-В папке Pages, создайте папку *Errors*, а в ней создайте cnhfybwe _404.cshtml_. При этом будет создан файл с подчеркиванием спереди *_404.cshtml*, переименуйте его, но имя класса страницы пусть останется  `public class _404Model : PageModel`, поскольку имя класса не может начинаться с цифры.
+В папке Pages, создайте папку *Errors*, а в ней создайте страницу _404.cshtml_. При этом будет создан файл с подчеркиванием спереди *_404.cshtml*, переименуйте его, но имя класса страницы пусть останется  `public class _404Model : PageModel`, поскольку имя класса не может начинаться с цифры.
  Далее  в файле Startup.cs в метод *Configure* вставьте вызов:
 ```
 app.UseStatusCodePagesWithReExecute("/errors/{0}");
@@ -39,4 +39,34 @@ app.UseStatusCodePagesWithReExecute("/errors/{0}");
         return NotFound();
 }
 ```
+*HTML Код* простейщей страницы _404.cshtml_:
+```
+@page
+@model _имя_вашего_проекта.Pages.Errors._404Model
+
+<div class="page c-white m3">
+    <h1>404</h1>
+    <p class="mt2 c-blue">Данная страница не существует<br />Проверьте адрес страницы:</p>
+    <p class="h3">@Model.OriginalURL</p>
+</div>
+```
+*С# код:*
+```
+   public class _404Model : PageModel
+    {
+        public string OriginalURL { get; set; }
+        public void OnGet()
+        {
+            var statusCodeReExecuteFeature = HttpContext.Features.Get<IStatusCodeReExecuteFeature>();
+            if (statusCodeReExecuteFeature != null)
+            {
+                OriginalURL =
+                    statusCodeReExecuteFeature.OriginalPathBase
+                    + statusCodeReExecuteFeature.OriginalPath
+                    + statusCodeReExecuteFeature.OriginalQueryString;
+            }
+        }
+    }
+```
+
 ◻ [Настройка пользовательской страницы ошибок на веб-сайте (learnrazorpages.com)](https://www.learnrazorpages.com/configuration/custom-errors)  
