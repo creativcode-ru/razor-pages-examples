@@ -18,7 +18,7 @@ select f - вернет данные только из одной таблицы
 ◻ [Linq-to-Entities Query (entityframeworktutorial.net)](https://www.entityframeworktutorial.net/querying-entity-graph-in-entity-framework.aspx) 
 
 ## Group BY
-Пример запроса, когда используются несколько полей и создается объек заданного типа:
+Пример запроса, когда используются несколько полей и создается объект заданного типа:
 ```
 SELECT        City, UrlMask, ISO2
 FROM          CatalogRubricCities
