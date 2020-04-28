@@ -24,6 +24,18 @@ public вашаСтраницаModel(IMemoryCache memoryCache)
      _cache = memoryCache;
 }
 ```
+Если вы одновременно используете доступ к базе данных, то зависимость должна включать также и контекст БД:
+```
+/ Кеш в памяти и база данных
+private IMemoryCache _cache;
+private readonly вашContext _context;
+
+public вашаСтраницаModel(IMemoryCache memoryCache, TopfirmContext context)
+{
+     _cache = memoryCache;
+     _context = context;
+}
+```
 
 
 📘 [Кэширование в памяти в ASP.NET Core](https://docs.microsoft.com/ru-ru/aspnet/core/performance/caching/memory?view=aspnetcore-3.1)  
