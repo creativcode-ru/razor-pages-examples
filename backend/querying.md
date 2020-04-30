@@ -52,6 +52,8 @@ var q= from f in _context.Firms
        from d in Details.DefaultIfEmpty()
        select new { f, d};
 ```
+📘 [Левое соединение](https://docs.microsoft.com/ru-ru/ef/core/querying/complex-query-operators#left-join)  
 ◻ [EntityFramework: левое (внешнее) соединение в Linq (stackoverflow.com)](https://stackoverflow.com/questions/39919230/asp-net-core-entityframework-core-left-outer-join-in-linq)  
-
+📘 [Селектор коллекции ссылается на внешний источник в предложении WHERE](https://docs.microsoft.com/ru-ru/ef/core/querying/complex-query-operators#collection-selector-references-outer-in-a-where-clause)    
+📘 [Выполнение левых внешних соединений](https://docs.microsoft.com/ru-ru/dotnet/csharp/linq/perform-left-outer-joins)  
  
