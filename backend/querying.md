@@ -37,6 +37,30 @@ private IQueryable<City> RubricCityQuery()
 
 📘 [Преобразование оператора LINQ GroupBy](https://docs.microsoft.com/ru-ru/ef/core/what-is-new/ef-core-2.1#linq-groupby-translation)  
 📘 [Сложные операторы запросов: GroupBy](https://docs.microsoft.com/ru-ru/ef/core/querying/complex-query-operators#groupby)  
+◻ [Grouping and Aggregating Data with LINQ](https://www.pluralsight.com/guides/grouping-aggregating-data-linq)  
+📘 [Группировка элементов последовательности](https://docs.microsoft.com/ru-ru/dotnet/framework/data/adonet/sql/linq/group-elements-in-a-sequence)  
+
+Еще вариант группировки с условием, подсчетом общего количества в группе и сортировкой по имени
+```
+public IList<City> GetFirmCities(List<OfficeCard> offices, out bool hasMore)
+        {
+            hasMore = (from o in offices where o.CityId == null select o).FirstOrDefault() != null;
+            return (from o in offices
+                    where o.CityId != null
+                    group o by (o.City, o.CityId) into g
+                    select new City { Name = g.Key.City, Id = (int)g.Key.CityId, Count=g.Count() })
+                   .OrderBy(g => g.Name).ToList();
+
+           
+//Другой вариант:
+            //return offices
+            //    .Where(o=> o.CityId != null)
+            //    .GroupBy(o => new { o.City, o.CityId})
+            //    .Select(g => new City {Name = g.Key.City, Id =(int)g.Key.CityId})
+            //    .OrderBy(g => g.Name)
+            //    .ToList();
+        }
+```
 
 ## EF Core LEFT OUTER JOIN  
 Когда есть основная таблица, а для некоторых записей есть сведения в связанной таблице. Но нам нужны данные для основной таблицы, даже если нет уточнений. Для этого в SQL используется оператор LEFT OUTER JOIN (левое соединение), который берет все данные из основной таблицы.  
