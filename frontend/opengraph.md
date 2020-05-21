@@ -19,6 +19,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="image_src" href="/img/og/topfirm1200x628.jpg" />
 ```
+Нижняя строка отвечает за отображение ВКонтекте.
 
 ## og разметка с маленькой картинкой
 Для маленькой картинки можно взять, например, стандартый логотип сайта и использовать его для нескольких страниц:
@@ -31,6 +32,7 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://site.ru">
 <meta name="twitter:card" content="summary">
+<link rel="image_src" href="/img/og/topfirm1200x628.jpg" />
 ```
 ⚙ Пишут, что минимальный размер картинки 120x120, но Фейсбук не поддерживает картинки менее 200x200. Пока не тестировал.
 
