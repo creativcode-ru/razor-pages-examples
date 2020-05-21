@@ -23,6 +23,8 @@
 
 ## [Русская кодировка →](frontend/cyrillic.md)   
 
+## [Микроразметка →](frontend/microdata.md)  
+
 
 
 # backend - работа с базой данных  
