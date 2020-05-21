@@ -19,11 +19,17 @@
 
 ## [Маршрутизация и перенаправление →](frontend/routing.md)   
 
-## [Обработка ошибок →](frontend/errors.md)   
+## [Обработка ошибок →](frontend/errors.md)  
+
+
+
+# Оптимизация
 
 ## [Русская кодировка →](frontend/cyrillic.md)   
 
 ## [Микроразметка →](frontend/microdata.md)  
+
+## [Разметка для социальных сетей Open Graph →](frontend/opengraph.md)  
 
 
 
