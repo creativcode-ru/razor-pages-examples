@@ -33,7 +33,7 @@
 
 
 
-# backend - работа с базой данных  
+# Работа с базой данных  
 загрузка иподключение к БД, запросы.
 
 ## [EF Core Database First →](https://github.com/creativcode-ru/EF-Core/blob/master/doc/ConsotoDbFirst.md)
