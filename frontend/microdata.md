@@ -10,7 +10,7 @@
 Официальный сайт https://json-ld.org/  
 
 ## Семантическая разметка Яндекс   
-Хотя в своей документации Яндекс обычно приводит примеры с разметкой **Microdata**, но он, иногда, также понимает и JSON-LD. В этом можно убедится, используя валидатор микроразметки Яндекса https://webmaster.yandex.ru/tools/microtest/ . Например проверьте в валидаторе пример из Яндекса https://yandex.ru/support/webmaster/json-ld/about.html 
+Хотя в своей документации Яндекс https://yandex.ru/support/webmaster/supported-schemas/address-organization.html  обычно приводит примеры с разметкой **Microdata**, но он, иногда, также понимает и JSON-LD. В этом можно убедится, используя валидатор микроразметки Яндекса https://webmaster.yandex.ru/tools/microtest/ . Например проверьте в валидаторе пример из Яндекса https://yandex.ru/support/webmaster/json-ld/about.html 
 
 ## Структурированные данные Google  
 Посмотреть поддерживаемые типа структурированных данных можно здесь: https://developers.google.com/search/docs/data-types/article , валидатор: https://search.google.com/structured-data/testing-tool  
