@@ -49,3 +49,7 @@
    </a>
 </p>
 
+# Публикация
+
+## [Azure хостинг  →](backend/azurehost.md) 
+
