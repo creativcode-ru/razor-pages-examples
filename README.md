@@ -41,6 +41,11 @@
 
 ## [Запросы в EF Core →](backend/querying.md)  
 
+# Публикация
+
+## [Azure хостинг  →](backend/azurehost.md) 
+
+
 <br /><br />
 <p align="center">
   Практические консультации вы можете получить на наших <a  href="http://creativcode.ru/learn" target="_blank" >веб курсах в Сочи, Адлер</a>:<br /><br />
@@ -49,7 +54,4 @@
    </a>
 </p>
 
-# Публикация
-
-## [Azure хостинг  →](backend/azurehost.md) 
 
